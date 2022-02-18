@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    height: auto !important;
+}
+
+.main-outer {
+    padding: 10px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(-120deg, #ebf4f5, #ffc5a6);
+}
+
+
+.form-outer {
+    margin: 0;
+    width: 700px;
+    height: 650px;
+}
+
+.form-inner {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+    /*shadow for the form holder*/
+    -webkit-box-shadow: 7px 8px 19px -3px rgba(0, 0, 0, 0.2);
+    box-shadow: 7px 8px 19px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+.form-inner-sides {
+    flex: 1;
+    /*border: 1px solid red;*/
+}
+
+
+.right-side {
+    background-color: #ffffff;
+
+}
+
+/*----------left side with picture-------------*/
+.left-side {
+    background-image: url("../Assets/imgs/Form-img-1.jpg");
+    background-size: cover;
+
+}
+
+.clock {
+    /*totally unnecessary*/
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 10px;
+    padding-left: 65px;
+}
+
+
+.captions-for-picture {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    /*justify-content: center;*/
+    padding: 350px 65px 0 65px;
+}
+
+.captions-for-picture p {
+    font-size: 10px;
+
+}
+
+.captions-for-picture h3 {
+    text-transform: uppercase;
+
+}
+
+
+/*unnecessary thins */
+/*.captions-for-picture h3:hover{
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ff6400, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}*/
+
+.captions-for-picture h3:hover {
+    text-shadow: 2px 2px 4px rgb(64, 64, 64);
+}
+
+
+/*----------right side with the form and other stuff-------------*/
+
+
+.form-header {
+    color: #08090b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.form-header:hover {
+    color: #ff7319;
+}
+
+
+input {
+    background-color: #dee2e6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+input::placeholder {
+    font-size: 12px;
+    padding-left: 8px;
+}
+
+
+.details {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.user-details {
+    font-family: 'Raleway', sans-serif;
+}
+
+form {
+    margin: 20px 10px;
+    padding: 10px 0;
+}
+
+
+.input-box {
+    margin: 15px 10px;
+}
+
+.name {
+    margin-left: 70px;
+}
+
+.email {
+    margin-left: 47px;
+}
+
+.password-box {
+    margin-left: 72px;
+}
+
+.date-box {
+    margin-left: 79px;
+    color: grey;
+}
+
+.gender-set {
+    margin-right: 85px;
+}
+
+
+.number {
+    margin-left: 33px;
+}
+
+.address {
+    margin-left: 80px;
+}
+
+.conditions {
+    font-size: 9px;
+    /*font-weight: bold;*/
+    color: grey;
+    padding-left: 10px;
+}
+
+.account-button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: none;
+    /* border: 2px solid #ff7319;*/
+}
+
+.gender {
+    color: grey;
+    font-size: 12px;
+}
+
+.agreee {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button:focus {
+    background-color: #ff7319;
+    color: black;
+}
+
+button {
+    -webkit-box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.27);
+    box-shadow: 0px 0px 9px 4px rgba(0, 0, 0, 0.27);
+}
+
+/*----------------foooter----------------*/
+
+.line {
+    width: 85%;
+    border: 1px solid #d7d7d7;
+    background-color: #bababa;
+    margin: 0 5%;
+}
+
+.footer-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: #d0d0d0;
+}
+
+.logos-outer {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos {
+    width: 50px;
+    height: 50px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding-left: 10px ;
+    padding-top: 10px;
+}
+
+.footer-text2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 10px;
+    color: #c9c9c9;
+}
+
+

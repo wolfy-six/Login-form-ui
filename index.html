@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignIn</title>
+
+    <link rel="stylesheet" href="css/main.css"><!--css link-->
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body onload="startTime()">
+<div class="main-outer">
+
+    <div class="form-outer">
+        <div class="form-inner">
+            <div class="form-inner-sides left-side">
+
+
+                <div class="captions-for-picture">
+                    <h3>Welcome to signup</h3>
+                    <p>Far far away, behind the word mountains, far from
+                        the world of style and fashion, there live
+                        the blind texts </p>
+                </div>
+
+                <div class="clock" id="clock"></div>
+
+            </div>
+
+
+            <div class="form-inner-sides right-side">
+
+                <h2 class="form-header">Create an Account</h2>
+
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input class="name" type="text" placeholder="Enter Name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email Address</span>
+                            <input class="email" type="text" placeholder="E-mail address" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Password</span>
+                            <i class="fa fa-eye"></i>
+                            <i class="fa fa-eye-slash"></i>
+                            <input class="password-box" type="password" placeholder="Password" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details style-bd">Birthday</span>
+                            <input class="date-box" type="date" placeholder="Enter the date" required>
+                        </div>
+                        <div class="input-box">
+
+                            <span class="details gender-set">Gender</span>
+
+                            <label class="gender" for="male"> Male </label><input type="radio" id="male" name="gender">
+                            <label class="gender" for="male"> Female </label><input type="radio" id="female"
+                                                                                    name="gender">
+
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Contact Number</span>
+                            <input class="number" type="tel" placeholder="+94 " required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Address</span>
+                            <input class="address" type="text" placeholder="Enter your contact address" required>
+                        </div>
+
+                        <div class="input-box agreee">
+                            <input class="" type="checkbox" required>
+                            <span class="details conditions">I Agree All Statements In Terms Of Service </span>
+
+                        </div>
+
+                        <button class="account-button">Create An Account</button>
+
+
+                    </div>
+
+                </form>
+                <!--end of the form "logos and other stuff"-->
+
+                <div class="footer">
+                    <div class="line"></div>
+
+                    <h3 class="footer-text">Signup with the Service</h3>
+
+                    <div class="logos-outer">
+                        <div class="logos">
+                        </div>
+
+                        <div class="logos logo-google">
+                            <!--didt had time to complete to logos part-->
+                        </div>
+                        <div class="logos logo-twitter">
+
+                        </div>
+                        <div class="logos logo-fb">
+
+                        </div>
+                        <div class="logos"></div>
+                    </div>
+
+                    <h3 class="footer-text2">I'm already a member! <a href="">Sign In </a></h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="js/realtime.js"></script>
+</body>
+</html>
